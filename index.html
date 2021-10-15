@@ -1,0 +1,445 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>Document</title>
+	<link rel="stylesheet" href="basic-custom.css" />
+	<link
+		href="https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css"
+		rel="stylesheet"
+	/>
+
+	<link rel="preconnect" href="https://fonts.gstatic.com" />
+	<link
+		href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+		rel="stylesheet"
+	/>
+
+	<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+	<!-- BACK TO TOP BTN -->
+	<a href="#home" class="flex-center back-to-top">
+		<i class="bx bxs-to-top"></i>
+	</a>
+	<!-- END BACK TO TOP BTN -->
+
+	<!-- MOBILE NAVIGATION -->
+	<nav class="mb-nav fullwidth">
+		<div class="mb-nav-bar"></div>
+		<a href="#home" class="mb-nav-item flex-center active">
+			<i class="bx bxs-home"></i>
+		</a>
+		<a href="#about" class="mb-nav-item flex-center">
+			<i class="bx bxs-wink-smile"></i>
+		</a>
+		<a href="#food" class="mb-nav-item flex-center">
+			<i class="bx bxs-food-menu"></i>
+		</a>
+		<a href="#team" class="mb-nav-item flex-center">
+			<i class="bx bxs-comment-detail"></i>
+		</a>
+	</nav>
+	<!-- END MOBILE NAVIGATION -->
+
+	<!-- HEADER -->
+	<header class="header fullwidth">
+		<div class="container">
+			<div class="header-wrap">
+				<h2 class="logo">
+					<a href="#home">Freshfood</a>
+				</h2>
+				<nav class="navigation flex-center hidden-sm">
+					<a href="#home" class="nav-item active">home</a>
+					<a href="#about" class="nav-item">about</a>
+					<a href="#food" class="nav-item">food</a>
+					<a href="#team" class="nav-item">team</a>
+				</nav>
+				<div class="cart-btn flex-center">
+					<i class="bx bx-cart-alt"></i>
+				</div>
+			</div>
+		</div>
+	</header>
+	<!-- END HEADER -->
+
+	<!-- HOME -->
+	<section
+		id="home"
+		class="fullheight flex-center bg-img bg-img-fixed"
+		style="background-image: url(./assets/home-img.jpg)"
+	>
+		<div class="container">
+			<div class="row">
+				<div class="col-6 col-sm-12">
+					<h1 class="heading left-to-right play-on-scroll">Freshfood</h1>
+					<p class="sologan left-to-right play-on-scroll delay-2">
+						Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum
+						recusandae sed illo sit, saepe laboriosam ea fugit, architecto
+						quis quia aliquam neque nemo officia optio ab suscipit hic est
+						delectus!
+					</p>
+					<div class="left-to-right play-on-scroll delay-4">
+						<button class="home-order flex-center">Order now</button>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- END HOME -->
+
+	<!-- ABOUT -->
+	<section id="about" class="fullheight bg-img bg-img-fixed">
+		<div class="container">
+			<div class="row flex-center">
+				<div
+					class="
+						about-left
+						col-7 col-md-6
+						hidden-sm
+						left-to-right
+						play-on-scroll
+					"
+				>
+					<img src="./assets/about-img.jpg" alt="about-img" />
+				</div>
+				<div
+					class="
+						about-right
+						col-5 col-md-6 col-sm-12
+						right-to-left
+						play-on-scroll
+					"
+				>
+					<div class="about-right-wrap">
+						<h2>
+							<span class="primary-color">We</span>
+							create
+							<span class="primary-color">delicious</span>
+							memories for
+							<span class="primary-color">you</span>
+						</h2>
+						<p>
+							Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+							Dolore, amet deleniti ducimus illo, rem, architecto accusantium
+							ut ipsa consequuntur animi eum excepturi dolorem recusandae
+							autem eveniet temporibus neque. Libero, nostrum?
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- END ABOUT -->
+
+	<!-- FOOD -->
+	<section
+		id="food"
+		class="flex-center bg-img bg-img-fixed"
+		style="background-image: url(./assets/food-img.jpg)"
+	>
+		<div class="container">
+			<div class="food-wrap">
+				<div class="food-title">
+					<h2>What will <span class="primary-color">you</span> eat today?</h2>
+					<p>
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+						Perspiciatis deserunt tempore soluta voluptatum illum, reiciendis
+						a molestias quisquam, laboriosam odit eum quas, nam harum magni id
+						facilis necessitatibus blanditiis fuga!
+					</p>
+				</div>
+				<div class="food-menu">
+					<div class="food-menu-item zoom play-on-scroll">
+						<button class="active" type-food="all">All food</button>
+					</div>
+					<div class="food-menu-item zoom play-on-scroll delay-2">
+						<button type-food="salad">Salad</button>
+					</div>
+					<div class="food-menu-item zoom play-on-scroll delay-4">
+						<button type-food="lorem">Lorem</button>
+					</div>
+					<div class="food-menu-item zoom play-on-scroll delay-6">
+						<button type-food="ngucoc">Ngu coc</button>
+					</div>
+					<div class="food-menu-item zoom play-on-scroll delay-8">
+						<button type-food="dolar">Dolar</button>
+					</div>
+				</div>
+				<div class="food-item-list all">
+					<div class="container">
+						<div class="row">
+							<div class="col-3 col-sm-6 food-item ngucoc">
+								<div class="food-item-wrap bottom-up play-on-scroll">
+									<div class="food-item-img">
+										<img src="./assets/ngu-coc2.jpg" alt="ngucoc2" />
+									</div>
+									<div class="food-item-infor">
+										<div class="food-item-infor-name">
+											<h3>Lorem ipsum</h3>
+											<span>120$</span>
+										</div>
+										<div class="food-item-infor-cart cart-btn flex-center">
+											<i class="bx bx-cart-alt"></i>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-3 col-sm-6 food-item salad">
+								<div class="food-item-wrap bottom-up play-on-scroll">
+									<div class="food-item-img">
+										<img src="./assets/salad2.jpg" alt="salad2" />
+									</div>
+									<div class="food-item-infor">
+										<div class="food-item-infor-name">
+											<h3>Lorem ipsum</h3>
+											<span>120$</span>
+										</div>
+										<div class="food-item-infor-cart cart-btn flex-center">
+											<i class="bx bx-cart-alt"></i>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-3 col-sm-6 food-item ngucoc">
+								<div class="food-item-wrap bottom-up play-on-scroll">
+									<div class="food-item-img">
+										<img src="./assets/ngu-coc1.jpg" alt="ngucoc1" />
+									</div>
+									<div class="food-item-infor">
+										<div class="food-item-infor-name">
+											<h3>Lorem ipsum</h3>
+											<span>120$</span>
+										</div>
+										<div class="food-item-infor-cart cart-btn flex-center">
+											<i class="bx bx-cart-alt"></i>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-3 col-sm-6 food-item salad">
+								<div class="food-item-wrap bottom-up play-on-scroll">
+									<div class="food-item-img">
+										<img src="./assets/salad1.jpg" alt="salad1" />
+									</div>
+									<div class="food-item-infor">
+										<div class="food-item-infor-name">
+											<h3>Lorem ipsum</h3>
+											<span>120$</span>
+										</div>
+										<div class="food-item-infor-cart cart-btn flex-center">
+											<i class="bx bx-cart-alt"></i>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-3 col-sm-6 food-item dolar">
+								<div class="food-item-wrap bottom-up play-on-scroll">
+									<div class="food-item-img">
+										<img src="./assets/dolar2.jpg" alt="dolar1" />
+									</div>
+									<div class="food-item-infor">
+										<div class="food-item-infor-name">
+											<h3>Lorem ipsum</h3>
+											<span>120$</span>
+										</div>
+										<div class="food-item-infor-cart cart-btn flex-center">
+											<i class="bx bx-cart-alt"></i>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-3 col-sm-6 food-item lorem">
+								<div class="food-item-wrap bottom-up play-on-scroll">
+									<div class="food-item-img">
+										<img src="./assets/lorem1.jpg" alt="lorem1" />
+									</div>
+									<div class="food-item-infor">
+										<div class="food-item-infor-name">
+											<h3>Lorem ipsum</h3>
+											<span>120$</span>
+										</div>
+										<div class="food-item-infor-cart cart-btn flex-center">
+											<i class="bx bx-cart-alt"></i>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-3 col-sm-6 food-item dolar">
+								<div class="food-item-wrap bottom-up play-on-scroll">
+									<div class="food-item-img">
+										<img src="./assets/dolar1.jpg" alt="dolar1" />
+									</div>
+									<div class="food-item-infor">
+										<div class="food-item-infor-name">
+											<h3>Lorem ipsum</h3>
+											<span>120$</span>
+										</div>
+										<div class="food-item-infor-cart cart-btn flex-center">
+											<i class="bx bx-cart-alt"></i>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-3 col-sm-6 food-item salad">
+								<div class="food-item-wrap bottom-up play-on-scroll">
+									<div class="food-item-img">
+										<img src="./assets/salad3.jpg" alt="salad3" />
+									</div>
+									<div class="food-item-infor">
+										<div class="food-item-infor-name">
+											<h3>Lorem ipsum</h3>
+											<span>120$</span>
+										</div>
+										<div class="food-item-infor-cart cart-btn flex-center">
+											<i class="bx bx-cart-alt"></i>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- END FOOD -->
+
+	<!-- TEAM -->
+	<section id="team" class="flex-center">
+		<div class="container">
+			<div class="row">
+				<div class="col-4 col-sm-9">
+					<div class="team-item zoom play-on-scroll delay-2">
+						<div class="team-item-infor">
+							<p>
+								Lorem ipsum dolor sit amet consectetur adipisicing elit.
+								Ullam, labore nisi non molestias, minus laboriosam nostrum
+								impedit iure facilis odio unde quia ad sunt corrupti dolores
+								ratione voluptatibus quidem explicabo.
+							</p>
+						</div>
+						<div class="team-item-name">
+							<img src="./assets/team1.jpg" alt="team1" />
+							<p>Lorem ipsum dolor</p>
+							<div class="team-item-name-vote">
+								<i class="bx bxs-star"></i>
+								<i class="bx bxs-star"></i>
+								<i class="bx bxs-star"></i>
+								<i class="bx bxs-star"></i>
+								<i class="bx bxs-star"></i>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-4 col-sm-9">
+					<div class="team-item active zoom play-on-scroll">
+						<div class="team-item-infor">
+							<p>
+								Lorem ipsum dolor sit amet consectetur adipisicing elit.
+								Ullam, labore nisi non molestias, minus laboriosam nostrum
+								impedit iure facilis odio unde quia ad sunt corrupti dolores
+								ratione voluptatibus quidem explicabo.
+							</p>
+						</div>
+						<div class="team-item-name">
+							<img src="./assets/team2.jpg" alt="team2" />
+							<p>Lorem ipsum dolor</p>
+							<div class="team-item-name-vote">
+								<i class="bx bxs-star"></i>
+								<i class="bx bxs-star"></i>
+								<i class="bx bxs-star"></i>
+								<i class="bx bxs-star"></i>
+								<i class="bx bxs-star"></i>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-4 col-sm-9">
+					<div class="team-item zoom play-on-scroll delay-4">
+						<div class="team-item-infor">
+							<p>
+								Lorem ipsum dolor sit amet consectetur adipisicing elit.
+								Ullam, labore nisi non molestias, minus laboriosam nostrum
+								impedit iure facilis odio unde quia ad sunt corrupti dolores
+								ratione voluptatibus quidem explicabo.
+							</p>
+						</div>
+						<div class="team-item-name">
+							<img src="./assets/team3.jpg" alt="team3" />
+							<p>Lorem ipsum dolor</p>
+							<div class="team-item-name-vote">
+								<i class="bx bxs-star"></i>
+								<i class="bx bxs-star"></i>
+								<i class="bx bxs-star"></i>
+								<i class="bx bxs-star"></i>
+								<i class="bx bxs-star"></i>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- END TEAM -->
+
+	<!-- FOOTER -->
+	<footer
+		id="footer"
+		class="bg-img"
+		style="background-image: url(./assets/footer-img.jpg)"
+	>
+		<div class="container">
+			<div class="row">
+				<div class="col-6 col-sm-12">
+					<div class="footer-contact">
+						<h4>Freshfood</h4>
+						<p>
+							Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ullam
+							nihil ad quos libero dolorum, sed repudiandae pariatur optio
+							illum nesciunt quae voluptatum vel? Aspernatur libero error
+							nobis enim in magnam!
+						</p>
+						<div class="footer-contact-address">
+							<p>Email: example@mail.com</p>
+							<p>Phone: +00 123 456 789</p>
+							<p>Website: freshfood.com</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-2 col-sm-12">
+					<div class="footer-about-us">
+						<h4>About us</h4>
+						<ul>
+							<li><a href="#home">Home</a></li>
+							<li><a href="#about">About</a></li>
+							<li><a href="#food">Food</a></li>
+							<li><a href="#team">Team</a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="col-4 col-sm-12">
+					<div class="subscribe">
+						<h4>Subscribe & media</h4>
+						<p>
+							Lorem ipsum dolor sit, amet consectetur adipisicing elit. Velit
+							obcaecati maxime quibusdam earum nemo iste consectetur odio
+							nulla nam enim, impedit eum non quae iusto, sequi quod molestias
+							voluptas voluptatibus.
+						</p>
+						<div class="input-group">
+							<input type="text" placeholder="Enter your email" />
+							<button class="subscribe-btn">Subscribe</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+	<!-- END FOOTER -->
+
+	<script src="index.js"></script>
+</body>
+</html>
